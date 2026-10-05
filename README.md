@@ -19,9 +19,11 @@ GitHub Pages rebuilds automatically in ~1 minute.
 3. Tick "Enforce HTTPS" (auto-provisions once DNS propagates)
 
 ## Structure
-- `index.html` — the entire site (self-contained CSS; company voice; plans: Monitor / Intelligence / Desk)
+- `index.html` — the entire site (self-contained CSS; company voice; plans: Monitor / Intelligence / Desk + Lung Cancer Monthly section)
 - `assets/og.png` — social share card (1200×630)
 - `assets/fonts/` — self-hosted Inter + Instrument Serif (no Google dependency)
+- `magazine/` — Lung Cancer Monthly Issue 01 (the public free sample): PDF + cover image.
+  Subscribers receive the PPTX edition too — keep that out of the repo.
 
 ## Notes
 - v1 (samples-first design) archived outside the repo: `../archive/site-v1-index.html`
